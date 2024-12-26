@@ -1,4 +1,4 @@
-# **GSD: Malicious Crypto Mining Process**
+# **`gsd`: Malicious Crypto Mining Process**
 
 ## Overview
 
