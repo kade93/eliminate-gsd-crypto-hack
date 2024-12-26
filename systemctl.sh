@@ -17,7 +17,7 @@ for SERVICE in "${SERVICES[@]}"; do
   fi
 done
 
-# Systemctl 데몬 재로드
+# Systemctl reload daemon
 echo "[INFO] Reloading systemctl daemon..."
 systemctl daemon-reload
 
