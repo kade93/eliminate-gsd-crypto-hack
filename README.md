@@ -1,5 +1,11 @@
 # **`gsd`: Malicious Crypto Mining Process**
 
+## Gist
+https://gist.github.com/kade93/577c44e0e0f01eba8c88c68ce82ec29a
+```
+wget https://gist.github.com/kade93/577c44e0e0f01eba8c88c68ce82ec29a
+```
+
 ## Overview
 
 In December 2024, I discovered a malicious crypto mining process named `gsd`. This process exhibits the following behaviors:
