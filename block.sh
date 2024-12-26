@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 악성 IP 목록
+# Some IPs I found (destination)
 BLOCKED_IPS=(
   "212.73.150.237"
   "161.152.194.104"
@@ -13,7 +13,6 @@ for IP in "${BLOCKED_IPS[@]}"; do
   echo "[INFO] Blocked IP $IP."
 done
 
-# UFW 설정 적용
 echo "[INFO] Reloading UFW..."
 ufw reload 2>/dev/null
 

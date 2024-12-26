@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 악성 프로세스 이름
+# Malicious Process names
 PROCESS_NAMES=(
   "pwnrig"
   "gsd"

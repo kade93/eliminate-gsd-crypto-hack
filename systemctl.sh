@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Systemctl 서비스 이름 목록
+# Systemd Services
 SERVICES=(
   "pwnrige.service"
   "pwnrigl.service"

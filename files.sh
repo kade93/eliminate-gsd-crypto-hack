@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 관련 파일 경로 목록
+# Related Files
 FILES=(
   "/etc/systemd/system/pwnrige.service"
   "/etc/systemd/system/multi-user.target.wants/pwnrige.service"
