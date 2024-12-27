@@ -30,10 +30,7 @@ However, these scripts should be considered a temporary solution. **For complete
 ## Usage
 
 1. Clone this repository:
-    ```bash
-    git clone https://github.com/<your-username>/<repository-name>.git
-    ```
-2. Run the mitigation script:
+2. Run the mitigation script you need
 
 ## Important Notes
 
