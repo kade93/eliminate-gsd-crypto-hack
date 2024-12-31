@@ -26,3 +26,15 @@ for FILE in "${FILES[@]}"; do
   fi
 done
 
+# Remove 'gsd' related cron jobs from all users' crontab files
+CRONTAB_DIR="/var/spool/cron/crontabs"
+
+echo "[INFO] Removing 'gsd' related cron jobs..."
+for CRONTAB in "$CRONTAB_DIR"/*; do
+  if [ -f "$CRONTAB" ]; then
+    sed -i '/gsd/d' "$CRONTAB" 2>/dev/null
+    echo "[INFO] Removed 'gsd' related cron jobs from $CRONTAB."
+  else
+    echo "[INFO] No crontab file found for $CRONTAB."
+  fi
+done
